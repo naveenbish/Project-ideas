@@ -1,0 +1,103 @@
+*{
+  padding : 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h1, h3 {
+  text-align: left;
+  color: #0066cc;
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+a:hover {
+  color: #003366;
+}
+
+.projects{
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects ul li{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+section {
+  width: 40vw;
+  height: 65vh;
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.semi-heading {
+  font-size: 18px;
+  color: #0066cc;
+}
+
+.prj1-tech-stack,
+.prj1-motive,
+.prj1-features {
+  margin-bottom: 30px;
+  padding: 0px 20px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.prj1-tech-stack ul {
+  list-style-type: square;
+  margin: 10px;
+}
